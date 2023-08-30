@@ -1,0 +1,163 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+h1 {
+  color: rgb(30, 73, 114);
+}
+
+h2 {
+  color: rgb(51, 51, 51);
+}
+
+h3 {
+  color: rgb(114, 168, 168);
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+#lista li {
+  color: rgb(30, 73, 114);
+}
+
+#titulo {
+  color: rgb(114, 168, 168);
+  margin-left: 5px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(30, 73, 114);
+  padding: 5px;
+  font-size: 10px;
+}
+
+footer {
+  background-color: rgb(114, 168, 168);
+}
+
+footer a {
+  display: inline;
+}
+
+footer p {
+  display: inline-block;
+  padding-left: 22px;
+}
+
+footer div {
+  display: inline-block;
+}
+
+footer i {
+  padding: 10px;
+}
+
+aside {
+  background-color: rgb(224, 224, 224);
+}
+
+aside p {
+  margin: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+article {
+  background-color: rgb(178, 216, 178);
+  padding-bottom: 10px;
+}
+
+article h1 {
+  text-align: center;
+  background-color: rgb(114, 168, 168);
+  margin: auto;
+}
+
+article h2 {
+  text-align: center;
+}
+
+article p {
+  margin-left: 10px;
+  justify-content: center;
+}
+
+main a {
+  text-decoration: none;
+  color: rgb(0, 123, 255);
+  font-weight: 700;
+  float: right;
+  padding-top: 5px;
+  padding-right: 15px;
+}
+
+main a:hover {
+  color: rgb(0, 86, 179);
+}
+
+#lista {
+  padding: 5px;
+  margin-left: 250px;
+  text-align: center;
+  display: inline-block;
+}
+
+#lista ol , #lista ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+main img {
+  width: 250px;
+  border: 10px solid rgb(114, 168, 168);
+  border-radius: 99999%;
+  margin-top: 20px;
+}
+
+main {
+  margin-top: 65px;
+}
+
+#lista h3 {
+  font-size: 2em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th , td {
+  border: 1px solid rgb(204, 204, 204);
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(242, 242, 242);
+  font-weight: 700;
+}
+
+#titulo_tabela p {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+  line-height: 1.6;
+  font-family: cursive;
+}
+
+.lado-esquerdo {
+  margin-right: 10px;
+  width: auto;
+}
+
+.lado-direito {
+  float: right;
+  margin-left: 10px;
+  width: auto; }
