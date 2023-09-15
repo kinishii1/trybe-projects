@@ -1,0 +1,21 @@
+h1 {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  background-color: black;
+}
+
+.nameEmail , .destinations , .textarea , .checkboxes , .buttons {
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: rgb(237, 235, 235);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+.textarea input {
+  margin: 10px;
+}

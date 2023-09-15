@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Form</title>
+  </head>
+  <body>
+    
+    <h1 id="title">Formulário Trybe Travel</h1>
+    <form action="" id="main-form" method="get">
+      <div class="nameEmail">
+        <label for="fullName">Nome completo</label>
+        <input type="text" id="fullName" minlength="10" maxlength="40" />
+        <label for="email">Email</label>
+        <input type="email" id="email" minlength="10" maxlength="50" />
+      </div>
+
+      <div class="destinations">
+        <label for="destinations">Destinos favoritos</label>
+        <input type="radio" name="destinations" id="destinations" />Cidade
+        <input type="radio" name="destinations" id="destinations" />Campo
+        <input type="radio" name="destinations" id="destinations" />Praia
+        <input type="radio" name="destinations" id="destinations" />Montanha
+      </div>
+
+      <div class="textarea">
+        <label for="question">Mande uma mensagem</label>
+        <textarea maxlength="500" id="question"></textarea>
+        <input type="date" name="" id="date" />
+      </div>
+
+      <div class="checkboxes">
+        <label for="promo">Aceita receber emails de promoçao</label>
+        <input type="checkbox" id="promo" class="checkbox" />
+
+        <label for="agreement">Concorda com os termos ?</label>
+        <input type="checkbox" id="agreement" class="checkbox" />
+      </div>
+
+      <div class="buttons">
+        <button id="submit-btn" class="button">Enviar</button>
+        <button id="clear-btn" class="button">Limpar</button>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
