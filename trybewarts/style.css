@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 254, 239);
+  font-weight: 500;
+}
+
+.evaluation-form-inputs , .evaluation-form-checkbox , .evaluation-form-agreement {
+  display: flex;
+}
+
+/* header */
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+
+.trybewarts-header-logo {
+  width: 75px;
+  height: 75px;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  align-self: center;
+}
+
+/* evaluation form */
+legend {
+  text-align: center;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+  order: 1;
+}
+
+#evaluation-form div {
+  margin-bottom: 10px;
+}
+
+#evaluation-form input {
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#evaluation-form input::placeholder {
+  text-align: center;
+  color: black;
+  opacity: 60%;
+}
+
+.evaluation-form-radio {
+  font-size: 12px;
+}
+
+.evaluation-form-inputs {
+  width: 100%;
+  gap: 10px;
+}
+
+.form-select {
+  padding: 7px;
+  margin-left: 9px;
+}
+
+.form-select option {
+  text-align: center;
+}
+
+#enter-button {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+#trybewarts-forms-logo {
+  height: 500px;
+  order: 2;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+#form-data {
+  display: none;
+}
+
+#submit-btn {
+  background-color: rgb(78, 44, 131);
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.evaluation-form-check-radio {
+  display: flex;
+  gap: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+select {
+  text-align-last: center;
+}
